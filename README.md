@@ -16,16 +16,15 @@ It predicts whether two questions submitted by a user convey the same meaning �
 ---
 
 ## 📁 Project Structure
-'''
+
 ├── train.csv # Quora question pairs training data
 ├── Untitled.ipynb # Notebook: EDA, preprocessing, training
 ├── app.py # Streamlit app for prediction
 ├── model.pkl (optional) # Serialized trained model
 ├── requirements.txt # Dependencies
-└── README.md # Documentation'''
+└── README.md # Documentation
 
-yaml
-Copy code
+
 
 ---
 
