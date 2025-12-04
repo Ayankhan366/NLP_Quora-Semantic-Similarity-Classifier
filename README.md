@@ -16,7 +16,7 @@ It predicts whether two questions submitted by a user convey the same meaning �
 ---
 
 ## 📁 Project Structure
-
+```bash
 ├── train.csv # Quora question pairs training data
 ├── Untitled.ipynb # Notebook: EDA, preprocessing, training
 ├── app.py # Streamlit app for prediction
@@ -24,7 +24,7 @@ It predicts whether two questions submitted by a user convey the same meaning �
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
 
-
+```
 
 ---
 
@@ -47,7 +47,7 @@ The model can handle paraphrased, reworded, or partially similar questions.
 ## ▶️ Running the App Locally
 
 ### 1. Install required packages
-```bash
+
 pip install -r requirements.txt
 2. Launch Streamlit app
 bash
@@ -65,8 +65,8 @@ The classifier will display either:
 Duplicate ✔️
 or
 Not Duplicate ❌
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
+```
 Python
 
 pandas
@@ -78,5 +78,6 @@ scikit-learn
 Streamlit
 
 Jupyter Notebook
+```
 
 📸 Demo Screenshot
